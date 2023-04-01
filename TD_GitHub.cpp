@@ -20,3 +20,23 @@ int sommeNombre(int nb)
 	}
 	return somme;
 }
+float salaireNet(int salaire)
+{
+		float chargeSalariale = salaire * 0.23;
+		float salaireNet = salaire - chargeSalariale;
+		return salaireNet;
+}
+
+int plusPetit(int a, int b, int c) {
+	int min = a;
+	if (b < min) 
+	{
+		min = b;
+	}
+	if (c < min) 
+	{
+		min = c;
+	}
+	return min;
+}
+
