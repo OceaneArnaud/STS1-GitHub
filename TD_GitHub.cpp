@@ -2,10 +2,51 @@
 #include <iostream>
 using namespace std;
 
+//Fonctions realisees par l'etudiant 1 :
+#include "TD_GitHub.h"
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+bool estMajeur(int age)
+{
+    return (age >= 18);
+}
+
+int exposant(int nbre, int exp)
+{
+    int resultat;
+
+    resultat = pow(nbre,exp);
+    return resultat;
+}
+
+float TVA(int prix)
+{
+    float TVAprix;
+    TVAprix = prix * 1.196;
+    return TVAprix;
+}
+
+int plusGrand(int a, int b, int c)
+{
+    int max = a;
+    if (b > max && c < max)
+    {
+        max = b;
+    }
+    else if (c > max)
+    {
+        max = c;
+    }
+
+    return max;
+}
 
 
 
-//Fonctions réalisées par l'étudiant 2 :
+//Fonctions rï¿½alisï¿½es par l'ï¿½tudiant 2 :
 bool estPair(int nb)
 {
 	return nb % 2 == 0;
