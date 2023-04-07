@@ -1,13 +1,9 @@
 #include "TD_GitHub.h"
 #include <iostream>
-using namespace std;
-
-//Fonctions realisees par l'etudiant 1 :
-#include "TD_GitHub.h"
-#include <iostream>
 #include <cmath>
 using namespace std;
 
+//Fonctions realisees par l'etudiant 1 :
 
 bool estMajeur(int age)
 {
@@ -46,7 +42,8 @@ int plusGrand(int a, int b, int c)
 
 
 
-//Fonctions r�alis�es par l'�tudiant 2 :
+//Fonctions realisees par l'etudiant 2 :
+
 bool estPair(int nb)
 {
 	return nb % 2 == 0;
